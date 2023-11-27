@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1{
+  font-size: 5vmax;
+  font-weight: 900;
+}
+
+h2{
+  font-size: 3.3vmax;
+  font-weight: bold;
+}
+
+*{
+  font-family: 'Heebo', sans-serif;
+}
+
+section{
+  padding-top: 5rem;
+  margin-bottom: 2rem;
+  height: 110vh;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+a{
+  text-decoration: none;
+}
+
+.watch-container{
+  position: relative;
+}
+
+.watch-container video{
+  position: absolute;
+  z-index: 0;
+  object-fit: cover;
+  object-position: center;
+  min-height: 50%;
+}
+
+.watch-container .caption{
+  position: relative;
+  z-index: 1;
+  margin-top: 31%;
+}
+
+.watch-container a{
+  width:7rem;
+}
+
+.medhu{
+  max-width: 18rem;
+}
+
+@media screen and (max-width: 700px) {
+  .medhu1{
+    max-height: 30rem;
+  }
+}
+
+.prod-card{
+  height:35rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: .5rem;
+  padding: 2rem;
+}
+
+footer{
+  font-size: x-small;
+  padding: 3rem;
+}
+
+.foot-list ul{
+    list-style: none;
+    padding-left: 1px;
+}
+
+.foot-list span{
+  font-weight: bold;
+}
