@@ -42,19 +42,20 @@ a{
 
 .watch-container{
   position: relative;
+  margin-bottom: 8rem;
 }
 
 .watch-container video{
-  position: absolute;
-  z-index: 0;
   object-fit: cover;
   object-position: center;
-  min-height: 50%;
+  min-height: 60vh;
 }
 
 .watch-container .caption{
-  position: relative;
-  z-index: 1;
+  position: absolute;
+  top:7rem;
+  font-size: 2rem;
+  width: 100%;
   margin-top: 31%;
 }
 
